@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build Output
+dist/
+build/
+
+# Test Output
+coverage/
+
+# Local Package Files (from npm pack)
+*.tgz
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+
+# IDE & Editor Directories
+.vscode/
+.idea/
+
+# Operating System Files
+.DS_Store
+Thumbs.db

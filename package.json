@@ -1,0 +1,61 @@
+{
+  "name": "react-modals-store",
+  "version": "1.0.0",
+  "description": "A lightweight, type-safe hooks & functions for managing multiple modals in React",
+  "license": "MIT",
+  "author": "KPKamil",
+  "sideEffects": false,
+  "keywords": [
+    "react",
+    "hook",
+    "modal",
+    "state-management"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "test": "vitest",
+    "test:watch": "vitest --watch"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/KPKamil/react-modals-hooks#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KPKamil/react-modals-hooks"
+  },
+  "bugs": {
+    "url": "https://github.com/KPKamil/react-modals-hooks/issues"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "use-sync-external-store": ">=1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "use-sync-external-store": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/react": "^19.2.2",
+    "@types/use-sync-external-store": "^1.5.0",
+    "jsdom": "^27.0.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3",
+    "use-sync-external-store": "^1.6.0",
+    "vitest": "^4.0.4"
+  }
+}
