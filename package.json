@@ -1,6 +1,6 @@
 {
   "name": "react-modals-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight, type-safe hooks & functions for managing multiple modals in React",
   "license": "MIT",
   "author": "KPKamil",
@@ -22,13 +22,13 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/KPKamil/react-modals-hooks#readme",
+  "homepage": "https://github.com/KPKamil/react-modals-store#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KPKamil/react-modals-hooks"
+    "url": "https://github.com/KPKamil/react-modals-store"
   },
   "bugs": {
-    "url": "https://github.com/KPKamil/react-modals-hooks/issues"
+    "url": "https://github.com/KPKamil/react-modals-store/issues"
   },
   "exports": {
     ".": {
